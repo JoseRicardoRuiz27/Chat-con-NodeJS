@@ -55,7 +55,15 @@
         position: relative;
     }
     #message{
-
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    #message > li{
+        padding: .5rem 1rem;
+    }
+    #message > li:nth-child(odd) {
+        background: #000;
     }
     #form{
         bottom: 0;
